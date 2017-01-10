@@ -1,0 +1,21 @@
+<aside class="sidebar {% if page.push_sidebar_down %}push{% endif %}" >
+	<div class="author">
+		<p><a href="/about/"><img src="/images/author.jpg" alt="author" class="author"></a></p>
+		<p>My name's <strong>Jane Doe</strong>, I like baking and eating sweet things.</p>
+	</div>
+
+	<div class="social-icons">
+		<a href="#">{% include social-icon.html icon="Facebook" %}</a>
+		<a href="#">{% include social-icon.html icon="Twitter" %}</a>
+		<a href="#">{% include social-icon.html icon="Pinterest" %}</a>
+		<a href="#">{% include social-icon.html icon="Instagram" %}</a>
+		<a href="#">{% include social-icon.html icon="RSS" %}</a>
+	</div>
+
+	<form action="">
+		<h3>Newsletter</h3>
+		<p>Get my latest recipes sent straight to your inbox.</p>
+		<input type="text" placeholder="email">
+		<input type="submit" value="Sign up">
+	</form>
+</aside>

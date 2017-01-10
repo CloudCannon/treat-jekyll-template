@@ -1,0 +1,27 @@
+---
+image_view: false
+---
+<h1>Recipes</h1>
+
+
+<div class="recipes">
+	{% for category in site.categories %}
+		<h2>{{ category[0] }}</h2>
+
+		{% if page.image_view %}
+		<ul>
+		{% endif %}
+		{% for recipe in category[1] %}
+			{% if page.image_view %}
+				<li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>
+			{% else %}
+			<div class="recipe" style="background-image: url('{{ recipe.featured_image }}')">
+				<a href="{{ recipe.url }}"><span>{{ recipe.title }}</span></a>
+			</div>
+			{% endif %}
+		{% endfor %}
+		{% if page.image_view %}
+			</ul>
+		{% endif %}
+	{% endfor %}
+</div>
