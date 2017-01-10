@@ -6,6 +6,7 @@ url: "https://proud-alligator.cloudvent.net"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
+newsletter_action: "//your-mailchimp-action-url.com"
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
@@ -22,7 +23,7 @@ social:
 # -----
 # Build
 
-paginate: 1
+paginate: 10
 paginate_path: "/:num/"
 permalink: pretty
 

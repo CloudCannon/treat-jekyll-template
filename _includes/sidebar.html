@@ -1,21 +1,21 @@
 <aside class="sidebar {% if page.push_sidebar_down %}push{% endif %}" >
 	<div class="author">
-		<p><a href="/about/"><img src="/images/author.jpg" alt="author" class="author"></a></p>
+		<p><a href="{{ site.baseurl }}/about/"><img src="{{ site.baseurl }}/images/author.jpg" alt="author" class="author"></a></p>
 		<p>My name's <strong>Jane Doe</strong>, I like baking and eating sweet things.</p>
 	</div>
 
 	<div class="social-icons">
-		<a href="#">{% include social-icon.html icon="Facebook" %}</a>
-		<a href="#">{% include social-icon.html icon="Twitter" %}</a>
-		<a href="#">{% include social-icon.html icon="Pinterest" %}</a>
-		<a href="#">{% include social-icon.html icon="Instagram" %}</a>
-		<a href="#">{% include social-icon.html icon="RSS" %}</a>
+		<a target="_blank" href="https://facebook.com/{{ site.data.sidebar.facebook }}">{% include social-icon.html icon="Facebook" %}</a>
+		<a target="_blank" href="https://twitter.com/{{ site.data.sidebar.twitter }}">{% include social-icon.html icon="Twitter" %}</a>
+		<a target="_blank" href="https://pinterest.com/{{ site.data.sidebar.pinterest }}">{% include social-icon.html icon="Pinterest" %}</a>
+		<a target="_blank" href="https://www.instagram.com/{{ site.data.sidebar.instagram }}">{% include social-icon.html icon="Instagram" %}</a>
+		<a target="_blank" href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %}</a>
 	</div>
 
-	<form action="">
+	<form action="{{ site.newsletter_action }}" method="post">
 		<h3>Newsletter</h3>
 		<p>Get my latest recipes sent straight to your inbox.</p>
-		<input type="text" placeholder="email">
+		<input type="text" name="EMAIL" placeholder="Email">
 		<input type="submit" value="Sign up">
 	</form>
 </aside>

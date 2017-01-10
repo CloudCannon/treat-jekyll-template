@@ -1,4 +1,5 @@
 ---
+title: Home
 ---
 <section class="posts">
 	{% for post in paginator.posts %}
@@ -13,7 +14,7 @@
 			<p><a class="button" href="{{ post.url }}">Read More</a></p>
 		</article>
 	{% endfor %}
-	
+
 	{% if paginator.total_pages > 1 %}
 		<div class="pagination">
 			{% if paginator.previous_page %}
