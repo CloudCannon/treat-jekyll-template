@@ -30,6 +30,6 @@ These are traditionally a very hard crisp cookie made for dunking into tea or co
 
 ![Cookie](https://source.unsplash.com/euGck1ifvp0)
 
-![Cookie](https://source.unsplash.com/YTbFHT9_IhY)
+![Cookie](https://source.unsplash.com/z4qzNEwtqSM)
 
 ![Cookie](https://source.unsplash.com/YnrSLOAjOEA)

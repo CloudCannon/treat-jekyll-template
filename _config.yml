@@ -7,6 +7,7 @@ baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
 newsletter_action: "//your-mailchimp-action-url.com"
+disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
@@ -36,6 +37,7 @@ defaults:
       layout: "post"
       push_sidebar_down: true
       print_stylesheet: true
+      comments: true
   -
     scope:
       path: ""

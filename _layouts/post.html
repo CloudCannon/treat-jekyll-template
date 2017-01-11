@@ -12,9 +12,9 @@ layout: page
 	</div>
 
 	<ul class="recipe-overview">
-		<li>{% include recipe-icon.html icon="quantity" %}<span>{{ page.recipe.servings }}</span></li>
-		<li>{% include recipe-icon.html icon="time" %}<span>{{ page.recipe.prep_time }}</span></li>
-		<li>{% include recipe-icon.html icon="cook" %}<span>{{ page.recipe.cook_time }}</span></li>
+		<li title="Servings">{% include recipe-icon.html icon="quantity" %}<span>{{ page.recipe.servings }}</span></li>
+		<li title="Prep Time">{% include recipe-icon.html icon="time" %}<span>{{ page.recipe.prep_time }}</span></li>
+		<li title="Cook Time">{% include recipe-icon.html icon="cook" %}<span>{{ page.recipe.cook_time }}</span></li>
 	</ul>
 
 	<div class="recipe-contents">
@@ -37,6 +37,23 @@ layout: page
 		<a class="pinterest" href="//pinterest.com/pin/create/link/?url={{ share_url }}&description={{ page.description }}">{% include social-icon.html icon="Pinterest" %}</a>
 		<a class="email" href="mailto:?subject=I'm going to this event&amp;body=Check%20it%20out%20-%20{{ share_url }}">{% include social-icon.html icon="Email" %}</a>
 	</div>
+	{% if site.disqus_shortname and page.comments %}
+		<div id="disqus_thread"></div>
+		<script>
+			var disqus_shortname = '{{ site.disqus_shortname }}';
+			var disqus_config = function () {
+				this.page.url = "{{ page.url | prepend: site.url }}";
+				this.page.identifier = "{{ page.id }}";
+			};
+			(function() {  // DON'T EDIT BELOW THIS LINE
+				var d = document, s = d.createElement('script');
+				dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+			})();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	{% endif %}
 </article>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
