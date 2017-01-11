@@ -3,6 +3,7 @@ layout: page
 ---
 <article class="post">
 	{% include post-heading.html post=page %}
+	<div class="take-me"> &bull; <a href="#recipe">Take me to the recipe</a></div>
 	<div class="image">
 		<img src="{{ page.featured_image }}" alt="{{ page.title }}">
 	</div>
@@ -11,7 +12,7 @@ layout: page
 		{{ content }}
 	</div>
 
-	<ul class="recipe-overview">
+	<ul id="recipe" class="recipe-overview">
 		<li title="Servings">{% include recipe-icon.html icon="quantity" %}<span>{{ page.recipe.servings }}</span></li>
 		<li title="Prep Time">{% include recipe-icon.html icon="time" %}<span>{{ page.recipe.prep_time }}</span></li>
 		<li title="Cook Time">{% include recipe-icon.html icon="cook" %}<span>{{ page.recipe.cook_time }}</span></li>

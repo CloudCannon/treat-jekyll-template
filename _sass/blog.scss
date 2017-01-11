@@ -9,7 +9,7 @@
 	}
 	time {
 		padding: 0 0 20px 0;
-		display: block;
+		display: inline-block;
 	}
 
 	p, li {
@@ -169,4 +169,11 @@
 .pagination {
 	text-align: center;
 	margin: 50px 0 0 0;
+}
+
+.take-me {
+	display: inline-block;
+	&, a {
+		color: #ccc;
+	}
 }

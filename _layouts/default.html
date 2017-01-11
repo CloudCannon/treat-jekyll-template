@@ -26,7 +26,11 @@
 </head>
 	<body>
 		{% include navigation.html %}
-		<header><img src="{{ site.baseurl }}/images/logo.svg" width="180" alt="logo"></header>
+		<header>
+			<a href="{{site.baseurl }}/">
+				<img src="{{ site.baseurl }}/images/logo.svg" width="180" alt="logo">
+			</a>
+		</header>
 		<div class="container main-content">
 			<section class="content">{{ content }}</section>
 			{% include sidebar.html %}
