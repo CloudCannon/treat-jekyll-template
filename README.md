@@ -16,7 +16,6 @@ Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jeky
 * Pre-styled components
 * Blog with pagination
 * Disqus comments for posts
-* Staff and author system
 * Configurable sidebar
 * Optimised for editing in [CloudCannon](http://cloudcannon.com/)
 * RSS/Atom feed
@@ -26,12 +25,13 @@ Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jeky
 ## Setup
 
 1. Add your site and author details in `_config.yml`.
-2. Add your Google Analytics and Disqus keys to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+2. Add your Google Analytics, Disqus and MailChimp keys to `_config.yml`.
+3. Add your details to `_data/sidebar.yml`
+4. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
 
 ## Develop
 
-Hydra was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
+Treat was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
 
 Install the dependencies with [Bundler](http://bundler.io/):
 
@@ -47,13 +47,12 @@ $ bundle exec jekyll serve
 
 ## Editing
 
-Hydra is already optimised for adding, updating and removing pages, staff, advice, company details and footer elements in CloudCannon.
+Treat is already optimised for adding, updating and removing recipes, navigation, page content, and sidebar information in CloudCannon.
 
-### Posts
+### Posts/Recipes
 
 * Add, update or remove a post in the *Posts* collection.
-* The **Staff Author** field links to members in the **Staff** collection.
-* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
+* The recipes page is organised by categories.
 * Change the defaults when new posts are created in `_posts/_defaults.md`.
 
 ### Contact Form

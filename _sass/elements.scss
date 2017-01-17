@@ -3,7 +3,7 @@ html , body {
 	margin: 0;
 }
 
-body {
+body, input {
 	font-family: 'Fira Sans', sans-serif;
 	color: #222;
 }
@@ -12,7 +12,7 @@ h1 {
 	font-size: 1.8em;
 	margin: 0;
 	padding: 0;
-	line-height: 1em;
+	line-height: 1.3em;
 }
 
 h2 {
@@ -21,10 +21,6 @@ h2 {
 
 time {
 	color: #ccc;
-}
-
-h1, h2, h3, h4, h5, h6 {
-
 }
 
 header {

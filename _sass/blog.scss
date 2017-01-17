@@ -9,7 +9,7 @@
 	}
 	time {
 		padding: 0 0 20px 0;
-		display: inline-block;
+		display: block;
 	}
 
 	p, li {
@@ -172,8 +172,9 @@
 }
 
 .take-me {
-	display: inline-block;
-	&, a {
-		color: #ccc;
+	float: right;
+	.button {
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 }

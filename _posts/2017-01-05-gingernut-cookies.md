@@ -9,8 +9,8 @@ tags:
 featured_image: https://source.unsplash.com/dZKiXR9FYcM/1920x1200
 recipe:
   servings: 60 cookies
-  prep_time: 15 minutes
-  cook_time: 15 minutes
+  prep: 15 minutes
+  cook: 15 minutes
   ingredients_markdown: |-
     * 200 g butter
     * 1 cup sugar

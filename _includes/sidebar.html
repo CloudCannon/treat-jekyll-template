@@ -1,7 +1,12 @@
-<aside class="sidebar {% if page.push_sidebar_down %}push{% endif %}" >
+<aside class="sidebar {% if page.push_sidebar_down %}push{% endif %}">
+	<div><a class="editor-link btn" href="cloudcannon:collections/_data/sidebar.yml" class="btn"><strong>&#9998;</strong> Edit sidebar</a></div>
 	<div class="author">
-		<p><a href="{{ site.baseurl }}/about/"><img src="{{ site.baseurl }}/images/author.jpg" alt="author" class="author"></a></p>
-		<p>My name's <strong>Jane Doe</strong>, I like baking and eating sweet things.</p>
+		<p>
+			<a href="{{ site.baseurl }}/about/">
+				<img src="{{ site.baseurl }}{{ site.data.sidebar.author_image }}" alt="author" class="author">
+			</a>
+		</p>
+		<p>{{ site.data.sidebar.description_markdown | markdownify }}</p>
 	</div>
 
 	<div class="social-icons">

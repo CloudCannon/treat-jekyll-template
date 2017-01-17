@@ -9,8 +9,8 @@ tags:
 featured_image: https://source.unsplash.com/NAN22eh754c/1920x1200
 recipe:
   servings: 12 slices
-  prep_time: 15 minutes
-  cook_time: 65 minutes
+  prep: 15 minutes
+  cook: 65 minutes
   ingredients_markdown: |-
     * 1 cup unsalted butter
     * 2 1/2 cups all-purpose flour

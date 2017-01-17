@@ -1,6 +1,12 @@
 ---
 title:
 categories:
-author_staff_member:
 date:
+featured_image:
+recipe:
+  servings:
+  prep:
+  cook:
+  ingredients_markdown:
+  directions_markdown:
 ---

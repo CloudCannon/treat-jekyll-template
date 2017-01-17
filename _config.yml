@@ -5,7 +5,6 @@ title: Treat Template
 url: "https://proud-alligator.cloudvent.net"
 baseurl:
 google_analytics_key:
-google_maps_javascript_api_key:
 newsletter_action: "//your-mailchimp-action-url.com"
 disqus_shortname:
 

@@ -9,8 +9,8 @@ tags:
 featured_image: https://source.unsplash.com/qJ0zGkrE1Zg/1920x1200
 recipe:
   servings: 12 cupcakes
-  prep_time: 5 minutes
-  cook_time: 25 minutes
+  prep: 5 minutes
+  cook: 25 minutes
   ingredients_markdown: |-
     **Cupcakes**
 
