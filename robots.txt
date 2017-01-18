@@ -4,3 +4,4 @@ sitemap: false
 ---
 User-agent: *
 Sitemap: {{ site.url }}/sitemap.xml
+Disallow: /contact-success/

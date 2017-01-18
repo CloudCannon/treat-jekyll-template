@@ -10,7 +10,7 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Personal template for Jekyll.
+description: Food blog template for Jekyll.
 author:
   name:
   email:

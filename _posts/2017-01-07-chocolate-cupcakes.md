@@ -3,9 +3,7 @@ date: 2017-01-07
 title: Chocolate Cupcakes
 categories:
   - Cupcakes
-tags:
-  - Cupcakes
-  - Chocolate
+  - Cakes
 featured_image: https://source.unsplash.com/qJ0zGkrE1Zg/1920x1200
 recipe:
   servings: 12 cupcakes

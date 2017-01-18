@@ -3,7 +3,7 @@ html , body {
 	margin: 0;
 }
 
-body, input {
+body, input, textarea {
 	font-family: 'Fira Sans', sans-serif;
 	color: #222;
 }
@@ -20,7 +20,7 @@ h2 {
 }
 
 time {
-	color: #ccc;
+	color: $light-grey;
 }
 
 header {
@@ -37,7 +37,7 @@ ol li + li {
 }
 
 footer {
-	color: #eee;
+	color: $light-grey;
 	text-align: center;
 	padding: 20px 0;
 	font-size: .8em;
