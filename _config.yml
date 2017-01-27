@@ -41,7 +41,7 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "page"
+      layout: "default"
   -
     scope:
       path: "index.html"

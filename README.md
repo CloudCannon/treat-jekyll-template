@@ -60,12 +60,7 @@ Treat is already optimised for adding, updating and removing recipes, navigation
 * Preconfigured to work with CloudCannon, but easily changed to another provider (e.g. [FormSpree](https://formspree.io/)).
 * Sends email to the address listed in company details.
 
-### Staff
-
-* Reused around the site to save multiple editing locations.
-* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
-
-### Footer
+### Navigation
 
 * Exposed as a data file to give clients better access.
 * Set in the *Data* / *Navigation* section.
