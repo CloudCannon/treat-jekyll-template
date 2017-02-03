@@ -1,6 +1,6 @@
 # Treat
 
-Food/baking blog template for Jekyll. Browse through a [live demo](https://proud-alligator.cloudvent.net/).
+Food/baking blog template for Jekyll. Browse through a [live demo](https://spring-bat.cloudvent.net/).
 
 ![Treat template screenshot](images/_screenshot.png)
 
