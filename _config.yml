@@ -49,12 +49,7 @@ defaults:
       layout: "default"
       push_sidebar_down: true
 
-jekyll-archives:
-  enabled:
-    - categories
-
 gems:
-  - jekyll-archives
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
