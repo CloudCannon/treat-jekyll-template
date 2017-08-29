@@ -3,7 +3,7 @@ date: 2017-01-05
 title: Gingernut Cookies
 categories:
   - Cookies
-featured_image: https://source.unsplash.com/dZKiXR9FYcM/1920x1200
+featured_image: https://images.unsplash.com/photo-1486893732792-ab0085cb2d43?w=1560&h=940&fit=crop
 recipe:
   servings: 60 cookies
   prep: 15 minutes
@@ -29,7 +29,7 @@ These are traditionally a very hard crisp cookie made for dunking into tea or co
 
 Carefully placing them on the tray.
 
-![Cookie](https://source.unsplash.com/z4qzNEwtqSM)
+![Cookie](https://source.unsplash.com/RUPPakds28k)
 
 Little Gavin loves them.
 

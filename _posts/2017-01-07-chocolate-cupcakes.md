@@ -4,7 +4,7 @@ title: Chocolate Cupcakes
 categories:
   - Cupcakes
   - Cakes
-featured_image: https://source.unsplash.com/qJ0zGkrE1Zg/1920x1200
+featured_image: https://source.unsplash.com/qJ0zGkrE1Zg/1560x940
 recipe:
   servings: 12 cupcakes
   prep: 5 minutes
@@ -48,14 +48,14 @@ recipe:
 ---
 These chocolate chocolate cupcakes have a stunning appearance and a rich, chocolatey sweetness. I've found at parties people prefer bite sized deserts so I'd recommend making 24 mini cupcakes rather than 12 large. That way you won't find half eaten cupcakes at your party!
 
-![Cupcakes](https://source.unsplash.com/UaeVmc51Ttw)
+![Cupcakes](https://images.unsplash.com/photo-1448131063153-f1e240f98a72?w=1560&h=940&fit=crop)
 
 You can never go wrong with sprinkles.
 
-![Cupcakes](https://source.unsplash.com/rNCnhO8XCeQ)
+![Cupcakes](https://images.unsplash.com/photo-1420730614543-e39f93134b0d?w=1560&h=940&fit=crop)
 
 Milk is a great addition to any cupcake experience.
 
-![Cupcakes](https://source.unsplash.com/hUGe-RCni3k)
+![Cupcakes](https://images.unsplash.com/photo-1457508252818-162dc1934c2f?w=1560&h=940&fit=crop)
 
 Why not add some popcorn?
