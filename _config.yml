@@ -5,7 +5,7 @@ title: Treat Template
 url: "https://spring-bat.cloudvent.net/"
 baseurl:
 google_analytics_key:
-newsletter_action: "//your-mailchimp-action-url.com"
+newsletter_action: 
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)

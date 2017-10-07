@@ -10,17 +10,18 @@
 	</div>
 
 	<div class="social-icons">
-		<a target="_blank" href="https://facebook.com/{{ site.data.sidebar.facebook }}">{% include social-icon.html icon="Facebook" %}</a>
-		<a target="_blank" href="https://twitter.com/{{ site.data.sidebar.twitter }}">{% include social-icon.html icon="Twitter" %}</a>
-		<a target="_blank" href="https://pinterest.com/{{ site.data.sidebar.pinterest }}">{% include social-icon.html icon="Pinterest" %}</a>
-		<a target="_blank" href="https://www.instagram.com/{{ site.data.sidebar.instagram }}">{% include social-icon.html icon="Instagram" %}</a>
+		{% if site.data.sidebar.facebook && site.data.sidebar.facebook!=""%}<a target="_blank" href="https://facebook.com/{{ site.data.sidebar.facebook }}">{% include social-icon.html icon="Facebook" %}</a>{% endif %} 
+		{% if site.data.sidebar.twitter && site.data.sidebar.twitter!=""%}<a target="_blank" href="https://twitter.com/{{ site.data.sidebar.twitter }}">{% include social-icon.html icon="Twitter" %}</a>{% endif %} 
+		{% if site.data.sidebar.pinterest && site.data.sidebar.pinterest!=""%}<a target="_blank" href="https://pinterest.com/{{ site.data.sidebar.pinterest }}">{% include social-icon.html icon="Pinterest" %}</a>{% endif %} 
+		{% if site.data.sidebar.instagram && site.data.sidebar.instagram!=""%}<a target="_blank" href="https://www.instagram.com/{{ site.data.sidebar.instagram }}">{% include social-icon.html icon="Instagram" %}</a>{% endif %} 
 		<a target="_blank" href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %}</a>
 	</div>
 
-	<form action="{{ site.newsletter_action }}" method="post">
+	{% if site.newsletter_action && site.newsletter_action!=""%}<form action="{{ site.newsletter_action }}" method="post">
 		<h3>Newsletter</h3>
 		<p>Get my latest recipes sent straight to your inbox.</p>
 		<input type="text" name="EMAIL" placeholder="Email address">
 		<input type="submit" value="Sign up">
 	</form>
+	{% endif %}
 </aside>
