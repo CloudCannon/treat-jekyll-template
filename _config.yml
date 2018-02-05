@@ -56,7 +56,7 @@ defaults:
       layout: "default"
       push_sidebar_down: true
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
