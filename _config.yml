@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Treat Template
-url: "https://spring-bat.cloudvent.net/"
+title: Eat My Apps
+url: "https://eatmyapps.com"
 baseurl:
 google_analytics_key:
 newsletter_action:
@@ -10,11 +10,15 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Food blog template for Jekyll.
-author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+description: Kitchen Adventures of Two B's
+authors:
+  connor:
+    name: Connor Zanin
+    email: cnnrznn@gmail.com
+    twitter: # twitter username without the @ symbol
+  emily:
+    name: Emily Cormier
+    email:
 social:
   name: Treat Template
   links:
