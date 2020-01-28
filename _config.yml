@@ -18,11 +18,11 @@ authors:
     twitter: # twitter username without the @ symbol
   emily:
     name: Emily Cormier
-    email:
+    email: emilycormier73@gmail.com
 social:
-  name: Treat Template
+  name: EatMyApps
   links:
-    - https://github.com/CloudCannon/treat-jekyll-template
+    - https://github.com/cnnrznn/eatmyapps
 
 # -----
 # Build
