@@ -69,7 +69,9 @@ sick duck.
 ![Rolling](/images/the-last-scone-you-need/IMG_2672.JPG)
 
 ![Triangles](/images/the-last-scone-you-need/IMG_2673.JPG)
+
 ![Sheet](/images/the-last-scone-you-need/IMG_2674.JPG)
+
 ![Cooling](/images/the-last-scone-you-need/IMG_2676.JPG)
 
 ### Variants
