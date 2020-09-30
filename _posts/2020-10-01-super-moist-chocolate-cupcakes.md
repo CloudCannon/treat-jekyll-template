@@ -3,7 +3,7 @@ title: Super Moist Chocolate Cupcakes
 categories:
   - Cupcakes
 date: 2020-10-01 00:00:00
-featured_image:
+featured_image: /uploads/moist-chocolate-cupcakes-600x900.jpg
 recipe:
   servings:
   prep:
@@ -13,8 +13,6 @@ recipe:
 ---
 
 ## Chocolate Cupcakes with Vanilla Frosting
-
-&nbsp;
 
 * **&nbsp;Prep Time:**&nbsp;25 minutes
 * **&nbsp;Cook Time:**&nbsp;20 minutes
@@ -38,11 +36,6 @@ recipe:
 * 1/3 cup (80ml) vegetable or canola&nbsp;**oil**&nbsp;(or melted coconut oil)
 * 2 teaspoons&nbsp;**pure vanilla extract**
 * 1/2 cup (120ml)&nbsp;**buttermilk**, at room temperature\*
-
-#### Topping
-
-* Chocolate Buttercream or Vanilla Buttercream
-* **sprinkles**&nbsp;(optional)
 
 ### Instructions
 
