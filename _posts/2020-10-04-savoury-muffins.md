@@ -1,8 +1,8 @@
 ---
 title: Savoury Muffins
 categories:
-date: 2020-10-04 19:07:30
-featured_image:
+date: 2020-10-04 19:07:00
+featured_image: /uploads/savoury-muffins540.jpg
 recipe:
   servings:
   prep:
